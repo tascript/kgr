@@ -2,6 +2,9 @@
   "name": "kgr",
   "version": "0.0.1",
   "description": "kgr is minimum starter of Svelte + Typescript + Vite",
-  "repository":"git+https://github.com/tascript/kgr.git",
-  "author": "tascript"
+  "repository": "git+https://github.com/tascript/kgr.git",
+  "author": "tascript",
+  "devDependencies": {
+    "svelte": "^3.41.0"
+  }
 }
