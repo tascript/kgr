@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "lib": ["dom", "ES2019"], 
+    "allowJs": false,    
+    "rootDir": "./",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"],
+    },
+    "resolveJsonModule": true,
+    "typeRoots": [
+      "./node_modules/@types",
+    ],
+    "types": ["svelte"]
+  },
+  "extends": "@tsconfig/svelte/tsconfig.json",
+  "include": [
+    "./src/*.ts"
+  ],
+  "exclude":[
+    "node_modules"
+  ],
+}
