@@ -6,4 +6,9 @@
   <p> {message} </p>
 </main>
 
-<style></style>
+<style>
+  p {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+</style>
