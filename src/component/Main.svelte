@@ -1,14 +1,10 @@
 <script lang="ts">
-  let message: string = 'Hello'
+  import Greet from './Greet.svelte';
 </script>
 
 <main>
-  <p> {message} </p>
+  <Greet message={'Hello!'} />
 </main>
 
 <style>
-  p {
-    font-size: 0.75rem;
-    font-weight: bold;
-  }
 </style>
