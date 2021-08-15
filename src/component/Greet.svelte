@@ -6,7 +6,7 @@
 
 <style>
   p {
-    font-size: 0.75rem;
+    font-size: 1.2rem;
     font-weight: bold;
   }
 </style>
