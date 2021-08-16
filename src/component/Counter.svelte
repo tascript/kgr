@@ -1,13 +1,16 @@
 <script lang='ts'>
-import { total } from '../store' 
+import { total } from '../store'
+import type { Unsubscriber } from 'svelte/store'
+import { onDestroy } from 'svelte'
 const countUp = () => {
   total.update(v => v + 1)
 }
 let current: number
 
-total.subscribe(t => {
+const unsubscriber: Unsubscriber = total.subscribe(t => {
   current = t
-	})
+  })
+onDestroy(unsubscriber) 
 </script>
 
 <p>current count is { current }</p>
