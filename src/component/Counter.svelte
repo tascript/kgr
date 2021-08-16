@@ -1,6 +1,5 @@
 <script lang='ts'>
 import { total } from '../store'
-
 </script>
 
 <p>current count is {$total}</p>
