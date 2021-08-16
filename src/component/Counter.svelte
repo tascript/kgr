@@ -1,14 +1,11 @@
 <script lang='ts'>
 import { total } from '../store'
-const countUp = () => {
-  total.update(v => v + 1)
-}
 
 </script>
 
 <p>current count is {$total}</p>
 
-<button on:click={countUp}>
+<button on:click={total.countUp}>
   count up
 </button>
 
