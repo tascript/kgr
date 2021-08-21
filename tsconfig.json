@@ -15,13 +15,10 @@
       "~/*": ["./*"],
     },
     "resolveJsonModule": true,
-    "typeRoots": [
-      "./node_modules/@types",
-    ],
-    "types": ["svelte"]
+    "types": ["svelte", "vite/client"]
   },
   "include": [
-    "./src/**/*.ts", "./src/**/*.d.ts"
+    "./src/**/*.ts", "./src/**/*.d.ts", "./src/**/*.svelte"
   ],
   "exclude":[
     "node_modules"
